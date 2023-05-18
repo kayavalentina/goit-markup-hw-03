@@ -1,0 +1,214 @@
+body{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: var(--paragraph-color);
+background-color: var(--text-color);
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.header{
+    background-color: var(--text-color);
+}
+:root{
+   --title-color: #404BBF;  
+    --text-color: #FFFFFF;  
+    --btn-color:#4d5ae5;  
+    --services-color:#2e2f42;  
+    --paragraph-color:#434455;
+    --white-filler-color: #F4F4FD;
+
+ }
+
+.logo{  
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--btn-color);
+    }
+.logo-studio-header{ 
+    color: var(--services-color) ;
+}
+.menu{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--services-color);
+}
+.adress{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--paragraph-color);
+}
+.mail-tel{
+    color: var(--paragraph-color);
+}
+.menu:hover,
+.menu:focus{
+    color: var(--title-color);   
+}
+
+.mail-tel:hover,
+.mail-tel:focus{
+    color:var(--title-color);   
+}
+  
+.section-hero{
+background-color: var(--services-color);
+}
+.hero{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.button{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--text-color);
+cursor: pointer;
+background-color: var(--btn-color);
+}
+.button:hover,
+.button:focus{
+    background-color:var(--title-color);
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.section-about-work{
+    background-color: var(--text-color);
+}
+.about-work{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--services-color);
+}
+.about-work-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--paragraph-color);
+}
+.section-work{
+    background-color: var(--text-color);
+}
+.work{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--services-color);
+}
+.section-team{
+    background-color: var(--white-filler-color);
+}
+.team-photo{
+    background-color: var(--text-color);
+}
+.team{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: var(--services-color);
+}
+.worker-name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--services-color);
+}
+.profession{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--paragraph-color);
+}
+.footer{
+    background-color: var(--services-color);
+}
+.footer-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--white-filler-color);
+}
+.button-all{
+font-family: "Roboto",sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color:var(--btn-color);
+cursor: pointer;
+font-weight: 500;
+background-color:var(--white-filler-color);
+}
+.button-all:hover,
+.button-all:focus{
+    background-color:var(--title-color);
+}  
+.button-all:hover,
+.button-all:focus{
+    color: var(--text-color);
+    
+}
+
+.services{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--services-color);
+}
+.services-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--paragraph-color) ;
+}
+.logo-studio{
+    color: var(--white-filler-color);
+}
