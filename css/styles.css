@@ -315,10 +315,8 @@ img{
     background-color: var(--services-color);
     padding: 100px 0;
 }
-.footer-all{
-    display: flex;
-    flex-direction: column;
-}
+
+
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
