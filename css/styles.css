@@ -81,7 +81,6 @@ img{
 }
 .logo-studio {
     color: var(--white-filler-color);
-    display: inline-block;
 }
 .menu-list{
     display: flex;
@@ -317,8 +316,9 @@ img{
     padding: 100px 0;
 }
 .footer-all{
-    display: flex;
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
+    
 }
 .logo-footer {
     font-family: 'Raleway', sans-serif;
@@ -341,8 +341,6 @@ img{
     letter-spacing: 0.02em;
     color: var(--white-filler-color);
     max-width: 264px;
-    
-   
 }
 .portfolio{
     padding: 96px 0 120px;
