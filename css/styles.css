@@ -28,6 +28,7 @@ ol{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
+    display: flex;
     
 }
 img{
@@ -47,7 +48,12 @@ img{
 .header {
     background-color: var(--text-color);
     margin: 0;
+    border-bottom: 1px solid #e7e9fc;
 
+}
+.header-nav{
+    display: flex;
+    align-items: center;
 }
 
 :root {
@@ -57,7 +63,7 @@ img{
     --services-color: #2e2f42;
     --paragraph-color: #434455;
     --white-filler-color: #F4F4FD;
-
+    --button-portfolio: #e7e9fc;
 }
 
 .logo {
@@ -71,7 +77,7 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--btn-color);
-    padding: 24px 0 24px 156px;
+    margin-right: 76px
 }
 
 .logo-studio-header {
@@ -80,13 +86,23 @@ img{
 .logo-studio {
     color: var(--white-filler-color);
 }
-
+.menu-list{
+    display: flex;
+    gap: 40px;
+}
 .menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--services-color);
+    padding: 24px 0;
+
+}
+.adress-list{
+    padding: 24px 0 24px 332px;
+    display: flex;
+    gap: 40px;
 }
 
 .adress {
@@ -114,8 +130,15 @@ img{
 
 .section-hero {
     background-color: var(--services-color);
+    padding: 188px 0;
+    margin-bottom: 164px;
 }
+.hero-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+}
 .hero {
     font-weight: 700;
     font-size: 56px;
@@ -123,9 +146,22 @@ img{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    max-width: 496px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
-
+.solution{
+    max-width: 496px;
+    margin: 0 auto;
+    
+}
+.business{
+    max-width: 496px;
+    margin: 0 auto;
+}
 .button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -138,6 +174,14 @@ img{
     color: var(--text-color);
     cursor: pointer;
     background-color: var(--btn-color);
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    gap: 10px;
+    margin-top: 48px;
+    margin: 48px auto;
 }
 
 .button:hover,
@@ -160,6 +204,18 @@ img{
 
 .section-about-work {
     background-color: var(--text-color);
+    padding: 120px 0;
+    margin-bottom: 0;
+}
+
+
+.about-work-list{
+    display: flex;
+    gap: 24px;
+    
+}
+.about-work-list-text{
+    width: calc((100% - 72px) / 4);
 }
 
 .about-work {
@@ -168,6 +224,7 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--services-color);
+    margin-bottom: 8px;
 }
 
 .about-work-text {
@@ -180,8 +237,14 @@ img{
 
 .section-work {
     background-color: var(--text-color);
+    padding-bottom: 120px;
+    margin-bottom: 120px;
 }
-
+.work-all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
 .work {
     font-weight: 700;
     font-size: 36px;
@@ -190,16 +253,34 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--services-color);
+    margin-bottom: 72px;
+    
 }
-
+.work-list{
+    display: flex;
+    gap: 24px;
+}
+.work-images{
+    width: calc((100% - 48px) / 3);
+}
 .section-team {
     background-color: var(--white-filler-color);
+    padding-bottom: 120px;
 }
-
-.team-photo {
+.team-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.team-photo-list {
+    display: flex;
+    gap: 24px;
+}
+.team-photo{
     background-color: var(--text-color);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
-
 .team {
     font-weight: 700;
     font-size: 36px;
@@ -208,6 +289,9 @@ img{
     text-align: center;
     text-transform: capitalize;
     color: var(--services-color);
+    margin-bottom: 72px;
+    margin-top: 120px;
+    text-align: center;
 }
 
 .worker-name {
@@ -216,6 +300,8 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--services-color);
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .profession {
@@ -224,10 +310,23 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--paragraph-color);
+    text-align: center;
+}
+.worker-all{
+    padding: 32px 16px;
 }
 
 .footer {
     background-color: var(--services-color);
+    padding: 100px 0;
+}
+.footer-all{
+    display: flex;
+    flex-direction: column;
+}
+.logo-footer{
+    display: inline-block; 
+    margin-bottom: 16px; 
 }
 
 .footer-text {
@@ -236,8 +335,21 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white-filler-color);
+    max-width: 264px;
 }
-
+.portfolio{
+    padding: 96px 0 120px;
+}
+.portfolio-all{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px; 
+}
 .button-all {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -247,11 +359,15 @@ img{
     cursor: pointer;
     font-weight: 500;
     background-color: var(--white-filler-color);
+    padding: 12px 24px;
+    border: 1px solid var(--button-portfolio);
+    border-radius: 4px; 
 }
 
 .button-all:hover,
 .button-all:focus {
     background-color: var(--title-color);
+    border: 1px solid transparent;
 }
 
 .button-all:hover,
@@ -259,13 +375,28 @@ img{
     color: var(--text-color);
 
 }
+.portfolio-images-list{
+    display: flex;
+    flex-wrap: wrap; 
+    column-gap: 24px; 
+    row-gap: 48px;
 
+}
+.images-portfolio{
+    width: calc((100% - 48px) / 3);
+}
+.services-all{
+    padding: 32px 16px;
+    border: 1px solid var(--button-portfolio);
+    border-top: none; 
+}
 .services {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--services-color);
+    margin-bottom: 8px;
 }
 
 .services-text {
