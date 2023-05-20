@@ -64,13 +64,17 @@ img{
     --white-filler-color: #F4F4FD;
     --button-portfolio: #e7e9fc;
 }
-
+.logo-footer {
+    display: inline-block; 
+    margin-bottom: 16px; 
+}    
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -318,20 +322,11 @@ img{
     background-color: var(--services-color);
     padding: 100px 0;
 }
-
-.logo-footer {
-    display: inline-block; 
-    margin-bottom: 16px; 
-}    
-.footer-all {
+.footer-all{
     display: flex;
     flex-direction: column;
 }
 
-.logo-footer {
-    display: inline-block; 
-    margin-bottom: 16px; 
-}
 
 .footer-text {
     font-weight: 400;
@@ -340,6 +335,7 @@ img{
     letter-spacing: 0.02em;
     color: var(--white-filler-color);
     max-width: 264px;
+    
    
 }
 .portfolio{
