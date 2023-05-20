@@ -324,6 +324,7 @@ img{
     display: flex;
     flex-direction: column;
 }
+
 .logo-footer{
     display: inline-block; 
     margin-bottom: 16px; 
