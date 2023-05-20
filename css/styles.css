@@ -320,14 +320,15 @@ img{
     background-color: var(--services-color);
     padding: 100px 0;
 }
-.footer-all{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .logo-footer{
     display: inline-block; 
     margin-bottom: 16px; 
+}
+.footer-all{
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-text {
@@ -337,6 +338,7 @@ img{
     letter-spacing: 0.02em;
     color: var(--white-filler-color);
     max-width: 264px;
+   
 }
 .portfolio{
     padding: 96px 0 120px;
