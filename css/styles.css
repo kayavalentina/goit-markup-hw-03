@@ -33,9 +33,6 @@ ol{
 img{
     display: block;
 }
-.section{
-
-}
 .list {
     list-style: none;
 }
@@ -47,7 +44,7 @@ img{
 .header {
     background-color: var(--text-color);
     margin: 0;
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid var(--button-portfolio);
 
 }
 .header-nav{
@@ -76,6 +73,7 @@ img{
     text-transform: uppercase;
     color: var(--btn-color);
     margin-right: 76px;
+    display: inline-block;
 }
 
 .logo-studio-header {
@@ -205,7 +203,6 @@ img{
     padding: 120px 0;
     margin-bottom: 0;
 }
-
 
 .about-work-list{
     display: flex;
