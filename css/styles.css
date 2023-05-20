@@ -81,6 +81,7 @@ img{
 }
 .logo-studio {
     color: var(--white-filler-color);
+    display: inline-block;
 }
 .menu-list{
     display: flex;
@@ -330,7 +331,6 @@ img{
     color: var(--btn-color);
     margin-right: 76px;
     display: inline-block;
-    block-size: auto;
     margin-bottom: 16px; 
 } 
 
