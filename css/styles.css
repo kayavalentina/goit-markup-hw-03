@@ -1,55 +1,13 @@
-*{
+* {
     box-sizing: border-box;
-
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: var(--paragraph-color);
     background-color: var(--text-color);
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-    margin: 0;
-}
-ul,
-ol{
-    margin: 0;
-    padding: 0;
-}
-.container{
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    display: flex;   
-}
-img{
-    display: block;
-}
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.header {
-    background-color: var(--text-color);
-    margin: 0;
-    border-bottom: 1px solid var(--button-portfolio);
-
-}
-.header-nav{
-    display: flex;
-    align-items: center;
 }
 
 :root {
@@ -62,7 +20,54 @@ img{
     --button-portfolio: #e7e9fc;
 }
 
-   
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
+
+img {
+    display: block;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--text-color);
+    margin: 0;
+    border-bottom: 1px solid var(--button-portfolio);
+}
+
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -73,30 +78,36 @@ img{
     text-transform: uppercase;
     color: var(--btn-color);
     margin-right: 76px;
-    display: inline-block;
+    padding: 24px 0;
 }
 
 .logo-studio-header {
     color: var(--services-color);
 }
+
 .logo-studio {
     color: var(--white-filler-color);
 }
-.menu-list{
+
+.menu-list {
     display: flex;
     gap: 40px;
 }
+
+.menu-list-nav {
+    padding: 24px 0;
+}
+
 .menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--services-color);
-    padding: 24px 0;
-
 }
-.adress-list{
-    padding: 24px 0 24px 332px;
+
+.adress-list {
+    ;
     display: flex;
     gap: 40px;
 }
@@ -108,6 +119,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--paragraph-color);
+    margin-left: 332px;
 }
 
 .mail-tel {
@@ -129,12 +141,14 @@ img{
     padding: 188px 0;
     margin-bottom: 164px;
 }
-.hero-list{
+
+.hero-list {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 }
+
 .hero {
     font-weight: 700;
     font-size: 56px;
@@ -147,17 +161,20 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
-.solution{
+
+.solution {
     max-width: 496px;
     margin: 0 auto;
-    
+
 }
-.business{
+
+.business {
     max-width: 496px;
     margin: 0 auto;
 }
+
 .button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -204,12 +221,13 @@ img{
     margin-bottom: 0;
 }
 
-.about-work-list{
+.about-work-list {
     display: flex;
     gap: 24px;
-    
+
 }
-.about-work-list-text{
+
+.about-work-list-text {
     width: calc((100% - 72px) / 4);
 }
 
@@ -235,11 +253,13 @@ img{
     padding-bottom: 120px;
     margin-bottom: 120px;
 }
-.work-all{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
+.work-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .work {
     font-weight: 700;
     font-size: 36px;
@@ -249,33 +269,40 @@ img{
     text-transform: capitalize;
     color: var(--services-color);
     margin-bottom: 72px;
-    
+
 }
-.work-list{
+
+.work-list {
     display: flex;
     gap: 24px;
 }
-.work-images{
+
+.work-images {
     width: calc((100% - 48px) / 3);
 }
+
 .section-team {
     background-color: var(--white-filler-color);
     padding: 120px 0;
 }
-.team-all{
+
+.team-all {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .team-photo-list {
     display: flex;
     gap: 24px;
 }
-.team-photo{
+
+.team-photo {
     background-color: var(--text-color);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
+
 .team {
     font-weight: 700;
     font-size: 36px;
@@ -307,6 +334,7 @@ img{
     color: var(--paragraph-color);
     text-align: center;
 }
+
 .worker-all {
     padding: 32px 16px;
 }
@@ -315,11 +343,9 @@ img{
     background-color: var(--services-color);
     padding: 100px 0;
 }
-.footer-all{
-   display: flex;
-   flex-direction: column;
-    
-}
+
+.footer-all {}
+
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -331,8 +357,8 @@ img{
     color: var(--btn-color);
     margin-right: 76px;
     display: inline-block;
-    margin-bottom: 16px; 
-} 
+    margin-bottom: 16px;
+}
 
 .footer-text {
     font-weight: 400;
@@ -342,19 +368,23 @@ img{
     color: var(--white-filler-color);
     max-width: 264px;
 }
-.portfolio{
+
+.portfolio {
     padding: 96px 0 120px;
 }
-.portfolio-all{
+
+.portfolio-all {
     display: flex;
     flex-direction: column;
 }
-.portfolio-list{
+
+.portfolio-list {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px; 
+    margin-bottom: 72px;
 }
+
 .button-all {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -366,7 +396,7 @@ img{
     background-color: var(--white-filler-color);
     padding: 12px 24px;
     border: 1px solid var(--button-portfolio);
-    border-radius: 4px; 
+    border-radius: 4px;
 }
 
 .button-all:hover,
@@ -380,21 +410,25 @@ img{
     color: var(--text-color);
 
 }
-.portfolio-images-list{
+
+.portfolio-images-list {
     display: flex;
-    flex-wrap: wrap; 
-    column-gap: 24px; 
+    flex-wrap: wrap;
+    column-gap: 24px;
     row-gap: 48px;
 
 }
-.images-portfolio{
+
+.images-portfolio {
     width: calc((100% - 48px) / 3);
 }
-.services-all{
+
+.services-all {
     padding: 32px 16px;
     border: 1px solid var(--button-portfolio);
-    border-top: none; 
+    border-top: none;
 }
+
 .services {
     font-weight: 500;
     font-size: 20px;
@@ -411,4 +445,3 @@ img{
     letter-spacing: 0.02em;
     color: var(--paragraph-color);
 }
-
