@@ -108,6 +108,7 @@ img {
 .adress-list {
     display: flex;
     gap: 40px;
+    
 }
 
 .adress {
@@ -118,6 +119,8 @@ img {
     letter-spacing: 0.02em;
     color: var(--paragraph-color);
     margin-left: 332px;
+    padding: 24px 0;
+    
 }
 
 .mail-tel {
