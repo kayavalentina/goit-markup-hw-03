@@ -59,6 +59,7 @@ img {
     background-color: var(--text-color);
     margin: 0;
     border-bottom: 1px solid var(--button-portfolio);
+    padding: 24px 0;
 }
 
 .header-all {
@@ -80,7 +81,7 @@ img {
     text-transform: uppercase;
     color: var(--btn-color);
     margin-right: 76px;
-    padding: 24px 0;
+
 }
 
 .logo-studio-header {
@@ -102,7 +103,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--services-color);
-    padding: 24px 0;
+    
 }
 
 .adress-list {
@@ -118,7 +119,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--paragraph-color);
     margin-left: 332px;
-    padding: 24px 0;
+    
 }
 
 .mail-tel {
@@ -138,7 +139,6 @@ img {
 .section-hero {
     background-color: var(--services-color);
     padding: 188px 0;
-    margin-bottom: 164px;
 }
 
 .hero-list {
@@ -161,15 +161,6 @@ img {
     justify-content: center;
 }
 
-.solution {
-    max-width: 496px;
-    margin: 0 auto;
-}
-
-.business {
-    max-width: 496px;
-    margin: 0 auto;
-}
 
 .button {
     font-family: 'Roboto', sans-serif;
@@ -214,7 +205,7 @@ img {
 .section-about-work {
     background-color: var(--text-color);
     padding: 120px 0;
-    margin-bottom: 0;
+
 }
 
 .about-work-list {
@@ -246,7 +237,7 @@ img {
 .section-work {
     background-color: var(--text-color);
     padding-bottom: 120px;
-    margin-bottom: 120px;
+
 }
 
 .work-all {
@@ -306,7 +297,6 @@ img {
     text-transform: capitalize;
     color: var(--services-color);
     margin-bottom: 72px;
-    margin-top: 120px;
     text-align: center;
 }
 
