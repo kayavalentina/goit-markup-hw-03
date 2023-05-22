@@ -38,8 +38,7 @@ ol {
 
 .container {
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -59,11 +58,11 @@ img {
     background-color: var(--text-color);
     margin: 0;
     border-bottom: 1px solid var(--button-portfolio);
+    padding: 24px 0;
 }
 
 .header-all {
     display: flex;
-    padding: 24px 0;
 }
 
 .header-nav {
@@ -103,7 +102,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--services-color);
-    
+     padding: 24px 0;
 }
 
 .adress-list {
