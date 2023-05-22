@@ -59,11 +59,11 @@ img {
     background-color: var(--text-color);
     margin: 0;
     border-bottom: 1px solid var(--button-portfolio);
-    padding: 24px 0;
 }
 
 .header-all {
     display: flex;
+    padding: 24px 0;
 }
 
 .header-nav {
